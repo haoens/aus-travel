@@ -1,0 +1,9 @@
+.NavMenu {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: -24px;
+    @media screen and (max-width: 768px) {
+        display: none;
+    }
+}
