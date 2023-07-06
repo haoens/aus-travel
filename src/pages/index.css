@@ -1,9 +1,23 @@
-.NavMenu {
+.Navbar {
     display: flex;
-    align-items: center;
+    justify-content: flex-start;
     gap: 10px;
-    margin-right: -24px;
+    /* margin-right: -24px; */
+    /* border: 2px solid rgb(214, 214, 214); */
+    padding: 2vh 2vw;
+    box-shadow: rgba(131, 131, 132, 0.2) 0px 7px 29px 0px;
     @media screen and (max-width: 768px) {
         display: none;
     }
+}
+
+.nav-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: rgb(161, 161, 161);
+    transform: translateY(1px);
 }

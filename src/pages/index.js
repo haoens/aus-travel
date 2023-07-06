@@ -5,11 +5,14 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
         <>
-            <div className="NavMenu">
-                <NavLink to="/about" activeStyle>
+            <div className="Navbar">
+                <NavLink className="nav-link" to="/zoo">
+                    Zoo
+                </NavLink>
+                <NavLink className="nav-link" to="/about">
                     About
                 </NavLink>
-                <NavLink to="/contact" activeStyle>
+                <NavLink className="nav-link" to="/contact">
                     Contact Us
                 </NavLink>
             </div>
