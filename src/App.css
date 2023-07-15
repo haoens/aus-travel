@@ -29,7 +29,7 @@
 }
 
 .main-content {
-  padding: max(5vh, 5vw);
+  padding: 0px max(3.5vh, 3.5vw) max(3.5vh, 3.5vw) max(3.5vh, 3.5vw);
 }
 
 @keyframes App-logo-spin {
