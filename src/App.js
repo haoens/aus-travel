@@ -8,6 +8,7 @@ import Contact from './pages/contact';
 import Zoo from './pages/zoo';
 
 function App() {
+
   return (
     <Router>
 		<Navbar />
